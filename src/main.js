@@ -5,6 +5,10 @@ import store from './store/index.js'
 import toast from 'components/common/toast/index.js'
 import FastClick from 'fastclick'
 import VueLazyLoad from 'vue-lazyload'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(ElementUI)
 
 Vue.config.productionTip = false
 Vue.prototype.$bus = new Vue()
